@@ -30,8 +30,11 @@ public class Operacion implements Serializable {
     /**
      * Creates a new instance of Operacion
      */
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> c03f08c47b39773f94a724a1b2265f67eb3ff22f
     private RemoteInterface stub;
     private double operandoUno, operandoDos, resultado;
     private String usuario;
@@ -39,6 +42,7 @@ public class Operacion implements Serializable {
     private String email;
     private String telmovil;
     private List<Usuario> registros;
+<<<<<<< HEAD
     
     private String nombre;
 
@@ -70,6 +74,9 @@ public class Operacion implements Serializable {
     
     
     
+=======
+
+>>>>>>> c03f08c47b39773f94a724a1b2265f67eb3ff22f
     public Operacion() {
         stub = null;
         Registry registry;
